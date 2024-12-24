@@ -1,0 +1,22 @@
+.search {
+  width: 345px;
+  height: 54px;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 54px;
+}
+
+.search-btn {
+  background: linear-gradient(90deg, #8e8f99, #494d73, #3a3d5c 70%);
+}
+
+.search-type:focus {
+  outline: none;
+}
+
+.search-select-more {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
