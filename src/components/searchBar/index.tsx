@@ -65,7 +65,7 @@ function SearchBar({ onSearch }: Props) {
         placeholder="請輸入搜尋距離(公尺)"
       />
       <div
-        className="search-btn ml-5 w-16 h-8 text-center leading-8 rounded-3xl text-white"
+        className="search-btn ml-5 w-16 h-8 text-center leading-8 rounded-3xl"
         onClick={handleSearch}
       >
         搜尋
